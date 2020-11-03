@@ -1,0 +1,110 @@
+
+/*begin logo*/
+.logo{
+    width: auto;
+    height: 50px;
+}
+/*end logo*/
+
+/*begin icon navbar*/
+ion-icon {
+    width:40px;
+    height: 40px;
+    color: aliceblue;
+}
+/*end icon navbar*/
+.navbar{
+    background-color: #2d3436;
+}
+/*begin dropdown*/
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+
+      pointer-events: none;
+  }
+  /*end dropdown*/
+
+  /*begin text image*/
+  .caption {
+    position: absolute;
+    top: 20%;
+    right: 200px;
+    width: 100%;
+    color: #ecf0f1;
+    font-family: Lobster;
+    font-size: 100px;
+    font-weight: bolder;
+}
+.caption1 {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    width: 100%;
+    color: #f5cd79;
+    font-family: Alegreya Sans;
+    font-size: 80px;
+    
+}
+/*end text image*/
+
+/*begin image*/
+.img{
+    width: 100%;
+    height: 500px;
+}
+/*end image*/
+
+.H-F{
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    
+}
+.T-HF{
+    font-family: Alegreya Sans;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.Acc-HF{
+    font-family: Alegreya Sans;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.carousel {
+    width: 100%;
+    height: 50%;
+}
+.d-block{
+    width: 40%;
+    height: 30%;   
+}
+.temoi{
+    font-family: Alegreya Sans;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.citation{
+    font-family: Cabin;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 20%;
+    text-align: center;
+}
+.editeur{
+    margin-left: 60%;
+}
+
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+.footer{
+    text-align: center;
+}
